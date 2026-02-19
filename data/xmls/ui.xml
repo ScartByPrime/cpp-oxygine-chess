@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<resources>
+	<set path = "images/ui" />
+	<atlas>
+		<image file="play.png" />
+		<image file="logo2.png" />
+		<image file="menu.png" />
+		<image file="bg.png" />
+		<image file="draw.png" />
+		<image file="white_wins.png" />
+		<image file="black_wins.png" />
+	</atlas>
+
+	<set path = "images" />
+	<atlas>
+		<image file="background.png" />
+		<image file="bishop_bl.png" />
+		<image file="bishop_wh.png" />
+		<image file="king_bl.png" />
+		<image file="king_wh.png" />
+		<image file="knight_bl.png" />
+		<image file="knight_wh.png" />
+		<image file="pawn_bl.png" />
+		<image file="pawn_wh.png" />
+		<image file="queen_bl.png" />
+		<image file="queen_wh.png" />
+		<image file="rook_bl.png" />
+		<image file="rook_wh.png" />
+		<image file="bishop_sel.png" />
+		<image file="king_sel.png" />
+		<image file="knight_sel.png" />
+		<image file="pawn_sel.png" />
+		<image file="queen_sel.png" />
+		<image file="rook_sel.png" />
+	</atlas>
+</resources>
