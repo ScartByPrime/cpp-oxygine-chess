@@ -296,7 +296,12 @@ void Board::MoveSelectedPiece(const int row, const int col) {
     // если на целевой клетке есть фигура противника - удаляем
     spPiece targetPiece = _pieces[row][col];
     if (targetPiece) {
-        targetPiece->detach();
+        targetPiece->setTouchEnabled(false);
+        spTween tween = targetPiece->addTween(Actor::TweenAlpha(0), 300); // 300 мс
+        tween->addDoneCallback([targetPiece](Event*) {
+            targetPiece->detach();
+        });
+        _pieces[row][col] = nullptr;
     }
 
     // новые координаты

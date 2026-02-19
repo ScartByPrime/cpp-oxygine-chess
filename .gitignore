@@ -1,6 +1,7 @@
 build/
 cmake-build-*/
 out/
+proj.cmake/cmake-build-debug/
 proj.cmake/build/
 .idea/
 *.iml
