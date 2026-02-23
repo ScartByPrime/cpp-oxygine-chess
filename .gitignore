@@ -4,6 +4,7 @@ out/
 proj.cmake/cmake-build-debug/
 proj.cmake/build/
 .idea/
+**/.idea/
 *.iml
 
 # Prerequisites
