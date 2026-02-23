@@ -45,26 +45,26 @@ A fully functional 2D chess game built with the Oxygine game engine. The game fe
 
 ### Build Instructions (Linux)
 **Clone the repository with submodules:**
-*bash*
-git clone --recursive https://github.com/ScartByPrime/cpp-oxygine-chess.git
-cd cpp-oxygine-chess
+- *bash*
+- git clone --recursive https://github.com/ScartByPrime/cpp-oxygine-chess.git
+- cd cpp-oxygine-chess
 
 **Install dependencies (Ubuntu/Debian):**
-*bash*
-sudo apt-get update
-sudo apt-get install cmake build-essential libsdl2-dev
+- *bash*
+- sudo apt-get update
+- sudo apt-get install cmake build-essential libsdl2-dev
 
 **Build and run using the provided script:**
-*bash*
-cd proj.cmake
-chmod +x run.sh
-./run.sh
+- *bash*
+- cd proj.cmake
+- chmod +x run.sh
+- ./run.sh
 
 **Manual Build**
-*bash*
-mkdir -p build
-cd build
-cmake ..
-make
-cp -r ../data/* ./
-./Chess
+- *bash*
+- mkdir -p build
+- cd build
+- cmake ..
+- make
+- cp -r ../data/* ./
+- ./Chess
